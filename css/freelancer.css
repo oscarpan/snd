@@ -103,6 +103,13 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
+.navbar-contact {
+  float: right;
+  margin-top: -40px;
+}
+.navbar-contact a {
+  padding-left: 5px;
+}
 .navbar-custom {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
