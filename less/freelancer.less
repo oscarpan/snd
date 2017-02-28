@@ -117,12 +117,7 @@ header {
 }
 
 .navbar-contact{
-	float: right;
-	margin-top: -40px;
-
-	a{
-		padding-left: 5px;
-	}
+	display: none;
 }
 
 .navbar-custom {
@@ -194,6 +189,14 @@ header {
 }
 
 @media(min-width:768px) {
+	.navbar-contact{
+		float: right;
+		margin-top: -40px;
+
+		a{
+			padding-left: 5px;
+		}
+	}
     .navbar-custom {
         padding: 50px 0 15px 0;
         -webkit-transition: padding 0.3s;
