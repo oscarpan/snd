@@ -122,6 +122,9 @@ header {
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
+
+	padding: 5px 0;
+
 	a:focus {
 		outline: none;
 	}
@@ -132,6 +135,11 @@ header {
 		&:active,
 		&.active {
 			color: white;
+		}
+
+		margin-top: -18px;
+		img{
+			max-width: 100px;
 		}
 	}
 	.navbar-nav {
@@ -178,15 +186,20 @@ header {
 
 @media(min-width:768px) {
     .navbar-custom {
-        padding: 25px 0;
+        padding: 50px 0 15px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
 	    .navbar-brand {
+			margin-top: -60px;
 	        font-size: 2em;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
+
+			img{
+				max-width: 200px;
+			}
 	    }
     }
     .navbar-custom.affix {

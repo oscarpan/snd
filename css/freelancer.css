@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -109,18 +109,23 @@ header .intro-text .skills {
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  padding: 5px 0;
 }
 .navbar-custom a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
   color: white;
+  margin-top: -18px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: white;
+}
+.navbar-custom .navbar-brand img {
+  max-width: 100px;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -160,16 +165,20 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 50px 0 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
+    margin-top: -60px;
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  .navbar-custom .navbar-brand img {
+    max-width: 200px;
   }
   .navbar-custom.affix {
     padding: 10px 0;
