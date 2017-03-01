@@ -28,7 +28,34 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    $('#statistics').bind('inview', function (event, visible) {
+        if (visible == true) {
+            // Counter
+            $('.counter').each(function() {
+                var $this = $(this),
+                    countTo = $this.attr('data-count'),
+                    durationTime = $this.attr('data-duration');
+                $({ countNum: $this.text()}).animate({
+                        countNum: countTo
+                    },
+                    {
+                        duration: Math.floor(durationTime),
+                        easing:'linear',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+                    });
+            });
+        }
+    });
+
+
 
     // Floating label headings for the contact form
     $(function() {
