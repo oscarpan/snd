@@ -55,6 +55,11 @@
         }
     });
 
+    $('#testimonials-slider').slick({
+        infinite: true,
+        autoplay: true,
+    });
+
 
 
     // Floating label headings for the contact form

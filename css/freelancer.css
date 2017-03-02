@@ -527,3 +527,7 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.slick-next:before,
+.slick-prev:before {
+  color: #60578e;
+}
