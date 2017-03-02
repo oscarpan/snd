@@ -9,4 +9,4 @@ Steps to begin developing:
 * Make sure you have Node.js installed!
 * Make sure you have gulp installed: `sudo npm install -g gulp`
 * Install dependencies: `npm install`
-* Start developing: `npm dev`
+* Start developing: `gulp dev`
