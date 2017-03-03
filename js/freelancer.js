@@ -60,6 +60,26 @@
         autoplay: true,
     });
 
+    $('#past-clients-slider').slick({
+        autoplay: true,
+        responsive: [{
+            breakpoint: 2024,
+            settings: {
+                slidesToShow: 4,
+                infinite: true
+            }
+
+        }, {
+
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+                dots: true
+            }
+
+        }]
+    });
+
 
 
     // Floating label headings for the contact form
