@@ -58,25 +58,24 @@
     $('#testimonials-slider').slick({
         infinite: true,
         autoplay: true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                dots: true,
+            }
+        }]
     });
 
     $('#past-clients-slider').slick({
+        infinite: true,
         autoplay: true,
+        slidesToShow: 4,
         responsive: [{
-            breakpoint: 2024,
-            settings: {
-                slidesToShow: 4,
-                infinite: true
-            }
-
-        }, {
-
-            breakpoint: 767,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
-                dots: true
+                dots: true,
             }
-
         }]
     });
 
