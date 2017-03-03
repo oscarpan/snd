@@ -527,8 +527,12 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+/* EDITS ------------------*/
 #testimonials-slider {
   padding-left: 13px;
+}
+.subheader {
+  padding-top: 100px;
 }
 .slick-next:before,
 .slick-prev:before {
