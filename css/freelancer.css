@@ -4,7 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   overflow-x: hidden;
 }
 p {
@@ -27,7 +28,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /*	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -82,7 +85,9 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /*			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
@@ -108,7 +113,9 @@ header .intro-text .skills {
 }
 .navbar-custom {
   background: #60578e;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
@@ -532,6 +539,9 @@ fieldset[disabled] .btn-success.active {
 }
 .subheader {
   padding-top: 100px;
+}
+.about {
+  padding: 30px;
 }
 .slick-next:before,
 .slick-prev:before {
