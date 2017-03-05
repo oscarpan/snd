@@ -154,6 +154,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
   color: gray;
+  background: #eee;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
@@ -201,6 +202,10 @@ header .intro-text .skills {
   }
   .navbar-custom .navbar-brand img {
     max-width: 200px;
+  }
+  .navbar-custom .navbar-nav li a:focus,
+  .navbar-custom .navbar-nav li a:active {
+    border-radius: 5px;
   }
   .navbar-custom.affix {
     padding: 10px 0;
