@@ -61,18 +61,18 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #60578e;
+  border-color: #4e4e4e;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #60578e;
+  color: #4e4e4e;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: url("../img/bakedgoods.jpeg");
+  background: url("../img/fruitDish.jpg");
   background-size: cover;
   color: white;
 }
@@ -85,7 +85,7 @@ header img {
   margin: 0 auto 20px;
 }
 header .intro-text {
-  text-shadow: 0 0 25px #111;
+  text-shadow: 0 0 20px #333;
 }
 header .intro-text .name {
   display: block;
@@ -116,7 +116,7 @@ header .intro-text .skills {
   display: none;
 }
 .navbar-custom {
-  background: #60578e;
+  background: white;
   /*	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 */
   font-family: 'Raleway', sans-serif;
@@ -145,7 +145,7 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: gray;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #84BF41;
@@ -153,7 +153,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: gray;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
@@ -337,14 +337,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #60578e;
+  background-color: #4e4e4e;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #554d7e;
+  background-color: #414141;
 }
 .btn-outline {
   color: white;
@@ -364,8 +364,8 @@ footer .footer-below {
 }
 .btn-primary {
   color: white;
-  background-color: #60578e;
-  border-color: #60578e;
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -374,8 +374,8 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #4b446e;
-  border-color: #464068;
+  background-color: #353535;
+  border-color: #2f2f2f;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -397,11 +397,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #60578e;
-  border-color: #60578e;
+  background-color: #4e4e4e;
+  border-color: #4e4e4e;
 }
 .btn-primary .badge {
-  color: #60578e;
+  color: #4e4e4e;
   background-color: white;
 }
 .btn-success {
@@ -515,7 +515,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #60578e;
+  background-color: #4e4e4e;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -526,7 +526,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #60578e;
+  background-color: #4e4e4e;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -549,7 +549,7 @@ fieldset[disabled] .btn-success.active {
 }
 .slick-next:before,
 .slick-prev:before {
-  color: #60578e;
+  color: #4e4e4e;
 }
 .slick-dotted.slick-slider {
   margin: 0 20px 30px 20px;
