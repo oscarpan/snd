@@ -55,6 +55,30 @@
         }
     });
 
+    $('#testimonials-slider').slick({
+        infinite: true,
+        autoplay: true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                dots: true,
+            }
+        }]
+    });
+
+    $('#past-clients-slider').slick({
+        infinite: true,
+        autoplay: true,
+        slidesToShow: 4,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                dots: true,
+            }
+        }]
+    });
+
 
 
     // Floating label headings for the contact form
