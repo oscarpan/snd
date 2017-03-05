@@ -534,6 +534,9 @@ fieldset[disabled] .btn-success.active {
 .subheader {
   padding-top: 100px;
 }
+.about {
+  padding: 30px;
+}
 .slick-next:before,
 .slick-prev:before {
   color: #60578e;
