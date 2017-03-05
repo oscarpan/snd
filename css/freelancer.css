@@ -72,7 +72,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #84BF41;
+  background: url("../img/bakedgoods.jpeg");
+  background-size: cover;
   color: white;
 }
 header .container {
@@ -83,12 +84,15 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
+header .intro-text {
+  text-shadow: 0 0 25px #111;
+}
 header .intro-text .name {
   display: block;
   font-family: 'Raleway', sans-serif;
   /*			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*			text-transform: uppercase;
 */
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
 }
