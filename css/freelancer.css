@@ -550,7 +550,7 @@ fieldset[disabled] .btn-success.active {
   padding-top: 100px;
 }
 #contactus {
-  background: url("../img/desk.jpg");
+  background: url("../img/desk.jpg") center;
   background-size: cover;
 }
 .about {
