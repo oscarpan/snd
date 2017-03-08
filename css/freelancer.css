@@ -549,6 +549,10 @@ fieldset[disabled] .btn-success.active {
 .subheader {
   padding-top: 100px;
 }
+#contactus {
+  background: url("../img/desk.jpg");
+  background-size: cover;
+}
 .about {
   padding: 30px;
 }
