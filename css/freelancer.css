@@ -32,7 +32,6 @@ h6 {
   /*	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 */
   text-transform: uppercase;
-  font-weight: 700;
 }
 hr.star-light,
 hr.star-primary {
@@ -92,7 +91,7 @@ header .intro-text .name {
   /*			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 /*			text-transform: uppercase;
 */
-  font-weight: 700;
+  font-weight: 500;
   font-size: 2em;
 }
 header .intro-text .skills {
@@ -120,7 +119,7 @@ header .intro-text .skills {
 */
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
   padding: 5px 0;
 }
@@ -144,7 +143,7 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #666;
+  color: #333;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #84BF41;
@@ -152,7 +151,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: #666;
+  color: #333;
   background: #eee;
 }
 .navbar-custom .navbar-nav li.active a {
@@ -370,7 +369,7 @@ footer .footer-below {
   color: white;
   background-color: #4e4e4e;
   border-color: #4e4e4e;
-  font-weight: 700;
+  font-weight: 500;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -412,7 +411,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #84BF41;
   border-color: #84BF41;
-  font-weight: 700;
+  font-weight: 500;
 }
 .btn-success:hover,
 .btn-success:focus,
