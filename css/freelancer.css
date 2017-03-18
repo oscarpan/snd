@@ -71,6 +71,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
+  /*background: url("../img/fruitDish.jpg"); */
   background-size: cover;
   color: white;
 }
@@ -548,8 +549,8 @@ fieldset[disabled] .btn-success.active {
   padding-top: 100px;
 }
 #contactus {
-  background: url("../img/desk.jpg") center;
-  background-size: cover;
+  /*background: url("../img/desk.jpg") center;
+    background-size: cover;*/
 }
 .about {
   padding: 30px;
