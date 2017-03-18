@@ -72,13 +72,12 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: url("../img/fruitDish.jpg");
   background-size: cover;
   color: white;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 120px;
+  padding-bottom: 70px;
 }
 header img {
   display: block;
