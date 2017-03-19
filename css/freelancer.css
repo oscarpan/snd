@@ -225,7 +225,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #E5E4E5;
+  background: #B6B8B8;
   color: white;
 }
 @media (max-width: 767px) {
@@ -541,6 +541,11 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+#the-team {
+  background: url("../img/pineapplecrop2.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 #testimonials-slider {
   padding-left: 13px;
