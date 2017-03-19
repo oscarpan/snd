@@ -568,6 +568,12 @@ fieldset[disabled] .btn-success.active {
   max-width: 400px;
   margin: 0 auto;
 }
+#clientlist {
+  text-align: center;
+}
+#clienthighlight {
+  text-align: center;
+}
 .slick-next:before,
 .slick-prev:before {
   color: #4e4e4e;
