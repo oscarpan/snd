@@ -589,12 +589,15 @@ fieldset[disabled] .btn-success.active {
   max-width: 400px;
   margin: 0 auto;
 }
+<<<<<<< HEAD
+=======
 #clientlist {
   text-align: center;
 }
 #clienthighlight {
   text-align: center;
 }
+>>>>>>> ae52ae3f9b757cbcff369d3a41ba8e86016c5182
 .slick-next:before,
 .slick-prev:before {
   color: #4e4e4e;
