@@ -366,6 +366,22 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+.btn-learnmore {
+  color: black;
+  font-size: 20px;
+  border: solid 1px black;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-learnmore:hover,
+.btn-learnmore:focus,
+.btn-learnmore:active,
+.btn-learnmore.active {
+  color: #84BF41;
+  background: white;
+  border: solid 2px white;
+}
 .btn-primary {
   color: white;
   background-color: #4e4e4e;
@@ -542,11 +558,18 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
-#the-team {
-  background: url("../img/pineapplecrop2.jpeg");
-  background-size: cover;
-  background-position: center;
-}
+/*
+#the-team{
+	background: url("../img/pineapplecrop2.jpeg");
+	background-size: cover;
+	background-position: center;
+}*/
+/*
+#statistics{
+	background: url("../img/tomato.jpg");
+	background-size: cover;
+	background-position: center;
+}*/
 #our-team {
   background-color: #F8FAFA;
   padding-bottom: 20px;
@@ -556,16 +579,6 @@ fieldset[disabled] .btn-success.active {
 }
 .subheader {
   padding-top: 100px;
-}
-@media (min-width: 767px) {
-  #iatse {
-    padding-top: 60px;
-  }
-}
-@media (min-width: 767px) {
-  #iatse {
-    padding-top: 60px;
-  }
 }
 .about {
   padding: 30px;
@@ -588,11 +601,6 @@ fieldset[disabled] .btn-success.active {
 }
 #clienthighlight {
   text-align: center;
-}
-#statistics {
-  background: url("../img/tomato.jpg");
-  background-size: cover;
-  background-position: center;
 }
 .slick-next:before,
 .slick-prev:before {

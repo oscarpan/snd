@@ -411,6 +411,23 @@ footer {
 	}
 }
 
+.btn-learnmore {
+	color: black;
+	font-size: 20px;
+	border: solid 1px black;
+	background: transparent;
+	transition: all 0.3s ease-in-out;
+	margin-top: 15px;
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		color: @theme-success;
+		background: white;
+		border: solid 2px white;
+	}
+}
+
 .btn-primary {
 	.button-variant(white; @theme-primary; @theme-primary);
 	font-weight: 500;
@@ -518,12 +535,19 @@ footer {
     	display: none;
     }
 }
-
+/*
 #the-team{
 	background: url("../img/pineapplecrop2.jpeg");
 	background-size: cover;
 	background-position: center;
-}
+}*/
+
+/*
+#statistics{
+	background: url("../img/tomato.jpg");
+	background-size: cover;
+	background-position: center;
+}*/
 
 #our-team{
 	background-color: #F8FAFA;
@@ -536,18 +560,6 @@ footer {
 
 .subheader{
     padding-top:100px;
-}
-
-@media(min-width:767px) {
-    #iatse{
-        padding-top:60px;
-    }
-}
-
-@media(min-width:767px) {
-    #iatse{
-        padding-top:60px;
-    }
 }
 
 .about{
@@ -579,12 +591,6 @@ footer {
 #clienthighlight{
 	text-align: center;
 
-}
-
-#statistics{
-	background: url("../img/tomato.jpg");
-	background-size: cover;
-	background-position: center;
 }
 
 
