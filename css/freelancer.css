@@ -566,10 +566,11 @@ fieldset[disabled] .btn-success.active {
 .subheader {
   padding-top: 100px;
 }
-#contactus {
-  /*background: url("../img/desk.jpg") center;
-    background-size: cover;*/
-}
+/*
+#contactus{
+    background: url("../img/desk.jpg") center;
+    background-size: cover;
+}*/
 .about {
   padding: 30px;
 }
@@ -585,7 +586,6 @@ fieldset[disabled] .btn-success.active {
 #services .service {
   max-width: 400px;
   margin: 0 auto;
-  vertical-align: middle;
 }
 #clientlist {
   text-align: center;
@@ -593,14 +593,11 @@ fieldset[disabled] .btn-success.active {
 #clienthighlight {
   text-align: center;
 }
-<<<<<<< HEAD
 #statistics {
   background: url("../img/tomato.jpg");
   background-size: cover;
   background-position: center;
 }
-=======
->>>>>>> 1b0367d8d88b0545c9e46b2488be5890ecb42f02
 .slick-next:before,
 .slick-prev:before {
   color: #4e4e4e;
