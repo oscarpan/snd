@@ -593,11 +593,14 @@ fieldset[disabled] .btn-success.active {
 #clienthighlight {
   text-align: center;
 }
+<<<<<<< HEAD
 #statistics {
   background: url("../img/tomato.jpg");
   background-size: cover;
   background-position: center;
 }
+=======
+>>>>>>> 1b0367d8d88b0545c9e46b2488be5890ecb42f02
 .slick-next:before,
 .slick-prev:before {
   color: #4e4e4e;
