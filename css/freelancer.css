@@ -547,30 +547,34 @@ fieldset[disabled] .btn-success.active {
   background-size: cover;
   background-position: center;
 }
-/*#about-us-text{
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  border: 2px dashed #f69c55;
-  font-size: 30px;
+#our-team {
+  background-color: #F8FAFA;
+  padding-bottom: 20px;
 }
-#about-us-text p {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-*/
 #testimonials-slider {
   padding-left: 13px;
 }
 .subheader {
   padding-top: 100px;
 }
+<<<<<<< HEAD
 /*
 #contactus{
     background: url("../img/desk.jpg") center;
     background-size: cover;
 }*/
+=======
+@media (min-width: 767px) {
+  #iatse {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 767px) {
+  #iatse {
+    padding-top: 60px;
+  }
+}
+>>>>>>> 4229b27c3916e6e3f880f7c159d833db0e809f31
 .about {
   padding: 30px;
 }
