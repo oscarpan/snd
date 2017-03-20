@@ -547,9 +547,6 @@ fieldset[disabled] .btn-success.active {
   background-size: cover;
   background-position: center;
 }
-#our-team {
-  padding: 30px;
-}
 /*#about-us-text{
   height: 200px;
   line-height: 200px;
@@ -588,16 +585,14 @@ fieldset[disabled] .btn-success.active {
 #services .service {
   max-width: 400px;
   margin: 0 auto;
+  vertical-align: middle;
 }
-<<<<<<< HEAD
-=======
 #clientlist {
   text-align: center;
 }
 #clienthighlight {
   text-align: center;
 }
->>>>>>> ae52ae3f9b757cbcff369d3a41ba8e86016c5182
 .slick-next:before,
 .slick-prev:before {
   color: #4e4e4e;
