@@ -557,13 +557,6 @@ fieldset[disabled] .btn-success.active {
 .subheader {
   padding-top: 100px;
 }
-<<<<<<< HEAD
-/*
-#contactus{
-    background: url("../img/desk.jpg") center;
-    background-size: cover;
-}*/
-=======
 @media (min-width: 767px) {
   #iatse {
     padding-top: 60px;
@@ -574,7 +567,6 @@ fieldset[disabled] .btn-success.active {
     padding-top: 60px;
   }
 }
->>>>>>> 4229b27c3916e6e3f880f7c159d833db0e809f31
 .about {
   padding: 30px;
 }
