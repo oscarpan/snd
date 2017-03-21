@@ -572,7 +572,7 @@ fieldset[disabled] .btn-success.active {
 }*/
 #our-team {
   background-color: #F8FAFA;
-  padding-bottom: 20px;
+  padding: 70px 0;
 }
 #testimonials-slider {
   padding-left: 13px;
@@ -602,7 +602,8 @@ fieldset[disabled] .btn-success.active {
   #services-list .col-md-6:nth-child(2) {
     padding-right: 25px;
   }
-  #services-list .row {
+  #services-list .row,
+  #our-team .row {
     display: flex;
     align-items: center;
   }
@@ -619,6 +620,17 @@ fieldset[disabled] .btn-success.active {
 }
 #clienthighlight {
   text-align: center;
+}
+@media (max-width: 992px) {
+  .mobile-padding {
+    padding: 0 30px;
+  }
+  #our-team {
+    padding: 40px 0;
+  }
+  #our-team .mobile-padding {
+    padding-bottom: 40px;
+  }
 }
 .allclients {
   -webkit-columns: 3 250px;
