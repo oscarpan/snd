@@ -551,7 +551,7 @@ footer {
 
 #our-team{
 	background-color: #F8FAFA;
-	padding-bottom: 20px;
+	padding: 70px 0;
 }
 
 #testimonials-slider{
@@ -591,7 +591,7 @@ footer {
 		padding-right: 25px;
 	}
 
-	#services-list .row {
+	#services-list .row, #our-team .row {
 		display: flex;
 		align-items: center;
 	}
@@ -616,6 +616,34 @@ footer {
 	text-align: center;
 
 }
+
+
+
+
+@media (max-width : 992px) {
+	.mobile-padding{
+		padding: 0 30px;
+	}
+
+	#our-team{
+		padding: 40px 0;
+	}
+	#our-team .mobile-padding{
+		padding-bottom: 40px;
+	}
+
+	.subheader{
+		padding-top:50px;
+	}
+}
+
+.light-background{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
 
 .allclients {
   -webkit-columns: 3 250px;
