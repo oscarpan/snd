@@ -44,13 +44,19 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f0f5";
-  font-family: FontAwesome;
+  content: '';
+  background: url('../img/cherry.svg') no-repeat center center;
+  background-size: 35px 35px;
+  width: 45px;
+  height: 45px;
   display: inline-block;
   position: relative;
-  top: -0.8em;
+  top: -0.9em;
   font-size: 2em;
-  padding: 0 0.25em;
+}
+hr.star-light:after {
+  background: url('../img/cherry-light.svg') no-repeat center center;
+  background-size: 35px 35px;
 }
 hr.star-light {
   border-color: white;
