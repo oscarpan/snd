@@ -85,6 +85,10 @@ header .container {
   padding-top: 120px;
   padding-bottom: 70px;
 }
+header .index-container {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
 header img {
   display: block;
   margin: 0 auto 20px;
@@ -109,6 +113,10 @@ header .intro-text .skills {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
+  }
+  header .index-container {
+    padding-top: 290px;
+    padding-bottom: 190px;
   }
   header .intro-text .name {
     font-size: 4.75em;
