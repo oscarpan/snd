@@ -657,6 +657,9 @@ fieldset[disabled] .btn-success.active {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#statistics {
+  color: white;
+}
 .allclients {
   -webkit-columns: 3 250px;
   -moz-columns: 3 250px;
